@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Daily Muse",
+    "slug": "quote_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E0F12",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ahmedreyyan.dailymuse"
+    },
+    "android": {
+      "package": "com.ahmedreyyan.dailymuse",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E0F12",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#0E0F12"
+        }
+      ]
+    ]
+  }
+}
